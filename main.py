@@ -6,7 +6,7 @@ from selenium import webdriver
 
 RESPONSES_FILE = "form_responses.csv"
 START_DATE = datetime.utcfromtimestamp(1607212800)
-END_DATE = datetime.utcfromtimestamp(1612051200)
+END_DATE = datetime.utcfromtimestamp(1612742399)
 
 browser = webdriver.Chrome()
 files = {"completed_2_track": open("results/completed_2_track.csv", "w+", encoding="utf8"),
